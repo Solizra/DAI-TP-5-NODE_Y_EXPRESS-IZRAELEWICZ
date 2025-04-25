@@ -7,5 +7,18 @@ const horaActual = () =>
     return `son las: ${horas}:${minutos}:${segundos}`;
 }
 
-export default horaActual
+const fechaCompleta = () =>
+{
+    const ahora = new Date();
+    
+    const diaSemana = ahora.getDay();
+    const mes = ahora.getMonth();
+    const año = ahora.getFullYear();
+    const hora = horaActual();
+
+     return `${diaSemana} de ${mes} de ${año}, ${hora}`;
+}
+
+export { horaActual, fechaCompleta };
+
   
