@@ -1,16 +1,12 @@
 {
   "name": "dai-tp-5-node_y_express-izraelewicz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cowsay": "^1.6.0",
-    "express": "^5.1.0",
-    "nodemon": "^3.1.10"
-  }
+  "license": "ISC"
 }

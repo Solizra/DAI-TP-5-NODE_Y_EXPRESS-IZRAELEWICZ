@@ -1,3 +1,5 @@
-const {horas, minutos, segundos} = require('./src/time.js')
+import app from "./src/app.js"
 
-console.log(`La hora actual es de: ${horaActual()}`)
+app.listen(port,() => {   
+    console.log(`Listening on http://localhost:${port}`)
+})
