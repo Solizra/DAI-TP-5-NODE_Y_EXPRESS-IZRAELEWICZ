@@ -7,17 +7,20 @@ const horaActual = () =>
     return `son las: ${horas}:${minutos}:${segundos}`;
 }
 
-const fechaCompleta = () =>
-{
+const fechaCompleta = () => {
     const ahora = new Date();
     
-    const diaSemana = ahora.getDay();
-    const mes = ahora.getMonth();
+    const diasSemana = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+    const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+
+    const diaSemana = diasSemana[ahora.getDay()];
+    const diaMes = ahora.getDate();
+    const mes = meses[ahora.getMonth()];
     const año = ahora.getFullYear();
     const hora = horaActual();
 
-     return `${diaSemana} de ${mes} de ${año}, ${hora}`;
-}
+    return `${diaSemana} ${diaMes} de ${mes} de ${año}, ${hora}`;
+};
 
 export { horaActual, fechaCompleta };
 
