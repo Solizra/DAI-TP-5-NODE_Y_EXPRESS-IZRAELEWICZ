@@ -5,7 +5,7 @@ Rutas disponibles:
 
 "/hora" Devuelve la hora actual en formato HH:MM:SS.
 
-"/fecha-completa" → Devuelve fecha y hora en formato: "sábado 5 de abril de 2025, 16:24:51"
+"/fecha-completa" Devuelve fecha y hora en formato: "sábado 5 de abril de 2025, 16:24:51"
 
 Si accedes a una ruta inexistente, se va a ver un error "404" con un gatito.
 
