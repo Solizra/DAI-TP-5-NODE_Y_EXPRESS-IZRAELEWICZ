@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "70a59a7c-ad06-430a-a52d-d3a4305034cc",
+		"name": "TP5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bienvenida",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/fecha-completa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/fecha-completa",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"fecha-completa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/hora",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/hora",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hora"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
